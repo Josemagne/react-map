@@ -1,0 +1,64 @@
+*, html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  width: 500px;
+  height: 350px;
+  background-color: #c4b8b8;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto; 
+}
+
+input[type="text"] {
+  outline: none;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 70%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #cf8a08;
+}
+
+.show {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto; 
+}
+
+.gemeindeContainer {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.gemeindeContent {
+  width: 100%;
+} 
+
+.gemeindeContent__input {
+  float: right
+}
